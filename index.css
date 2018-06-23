@@ -27,3 +27,7 @@ body.show-ranges .results #trade .search-bar .middle .itemPopupAdditional .lc .d
 body.show-ranges #trade .results .search-bar .middle .itemPopupAdditional .lc .d {
     display: inline-block !important;
 }
+
+#trade {
+    max-width: 1820px;
+}
