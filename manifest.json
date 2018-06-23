@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "PoE Trade UI Improvements",
+  "version": "1.0",
+  "description": "Improves UI of pathofexile's trade system",
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.pathofexile.com/trade/search/*", "http://www.pathofexile.com/trade/search/*"],
+      "css": ["index.css"],
+      "js": ["index.js"]
+    }
+  ]
+}

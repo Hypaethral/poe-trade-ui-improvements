@@ -1,0 +1,29 @@
+body.col-4 #trade .resultset .row:not(.exchange):not(.controls),
+body.col-4 #trade .resultset .search-bar:not(.exchange):not(.controls) {
+    width: 25% !important;
+    border-bottom: 1px solid #333 !important;
+}
+
+body.col-3 #trade .resultset .row:not(.exchange):not(.controls),
+body.col-3 #trade .resultset .search-bar:not(.exchange):not(.controls) {
+    width: 33% !important;
+    border-bottom: 1px solid #333 !important;
+}
+
+body.col-2 #trade .resultset .row:not(.exchange):not(.controls),
+body.col-2 #trade .resultset .search-bar:not(.exchange):not(.controls) {
+    width: 50% !important;
+    border-bottom: 1px solid #333 !important;
+}
+
+body.col-1 #trade .resultset .row:not(.exchange):not(.controls),
+body.col-1 #trade .resultset .search-bar:not(.exchange):not(.controls) {
+    width: 100% !important;
+    border-bottom: 1px solid #333 !important;
+}
+
+body.show-ranges .newItemPopup .lc .d, .results .row .middle .itemPopupAdditional .lc .d,
+body.show-ranges .results #trade .search-bar .middle .itemPopupAdditional .lc .d,
+body.show-ranges #trade .results .search-bar .middle .itemPopupAdditional .lc .d {
+    display: inline-block !important;
+}
